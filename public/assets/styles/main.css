@@ -1,21 +1,21 @@
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', 'Times New Roman', sans-serif;
   padding: 20px;
-  background-color: #2A3D40; }
-
+  background-color: #2a3d40;
+}
 .messages {
   display: block;
-  border: 1px solid gray;
-  width: 572px;
+  border: 1px solid #ffffff;
+  width: 580px;
   min-height: 300px;
   margin: 20px 0;
-  background-color: #FFF; }
-
+  background-color: #ffffff;
+}
 h1 {
   font-size: 22px;
   text-transform: uppercase;
-  color: #C5DDE0; }
-
+  color: #c5dde0;
+}
 a {
   text-decoration: none;
   text-transform: uppercase;
@@ -24,9 +24,9 @@ a {
   display: inline-block;
   padding: 15px 25px;
   border: 1px solid gray;
-  background-color: #C5DDE0;
-  color: #2A3D40; }
-
+  background-color: #c5dde0;
+  color: #2a3d40;
+}
 input {
   width: 350px;
   font-size: 14px;
@@ -34,4 +34,5 @@ input {
   display: inline-block;
   padding: 15px 25px;
   margin-right: 10px;
-  border: 1px solid gray; }
+  border: 1px solid #ffffff;
+}
