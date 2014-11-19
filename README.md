@@ -1,13 +1,15 @@
 Assignment-Sockets-Boilerplate
 ==============================
 
+-- Chat Room --
+
 HTML/CSS:
 
 - generate HTML and CSS files with CodeKit
 - lessCSS
 
-JS
+JS:
 
-- worke in terminal
-- gulp
-- node.js
+- work in terminal:
+	- gulp
+	- node.js
