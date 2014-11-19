@@ -1,24 +1,37 @@
 body {
-  font-family: sans-serif; }
+  font-family: 'Ubuntu', sans-serif;
+  padding: 20px;
+  background-color: #2A3D40; }
 
 .messages {
   display: block;
   border: 1px solid gray;
-  width: 100%;
-  min-height: 100px; }
+  width: 572px;
+  min-height: 300px;
+  margin: 20px 0;
+  background-color: #FFF; }
+
+h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #C5DDE0; }
 
 a {
   text-decoration: none;
+  text-transform: uppercase;
   font-size: 14px;
   line-height: 100%;
   display: inline-block;
-  padding: 5px 15px;
-  border: 1px solid gray; }
+  padding: 15px 25px;
+  border: 1px solid gray;
+  background-color: #C5DDE0; 
+  color: #2A3D40; }
 
 input {
-  width: 360px;
+  width: 350px;
   font-size: 14px;
   line-height: 100%;
   display: inline-block;
-  padding: 5px 15px;
+  padding: 15px 25px;
+  margin-right: 10px;
   border: 1px solid gray; }
