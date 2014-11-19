@@ -13,3 +13,10 @@ JS:
 - work in terminal:
 	- gulp
 	- node.js
+
+How to test work version:
+
+- use terminal
+	- node server.js (Server started at ...)
+	- copy #server in your browser
+	- test chat options.
