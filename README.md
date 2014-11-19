@@ -1,7 +1,7 @@
-Assignment-Sockets-Boilerplate
-==============================
+Assignment. Sockets Boilerplate
+===============================
 
--- Chat Room --
+-- Chat Application: Chat Room --
 
 HTML/CSS:
 
