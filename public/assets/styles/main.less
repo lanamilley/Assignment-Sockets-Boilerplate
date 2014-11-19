@@ -1,21 +1,23 @@
+@import 'includes.less';
+
 body {
-  font-family: 'Ubuntu', 'Times New Roman', sans-serif;
+  font-family: @bodyfont;
   padding: 20px;
-  background-color: #2a3d40;
-}
+  background-color: @dark; }
+
 .messages {
   display: block;
-  border: 1px solid #ffffff;
+  border: 1px solid @white;
   width: 572px;
   min-height: 300px;
   margin: 20px 0;
-  background-color: #ffffff;
-}
+  background-color: @white; }
+
 h1 {
   font-size: 22px;
   text-transform: uppercase;
-  color: #c5dde0;
-}
+  color: @softcream; }
+
 a {
   text-decoration: none;
   text-transform: uppercase;
@@ -24,9 +26,9 @@ a {
   display: inline-block;
   padding: 15px 25px;
   border: 1px solid gray;
-  background-color: #c5dde0;
-  color: #2a3d40;
-}
+  background-color: @softcream; 
+  color: @dark; }
+
 input {
   width: 350px;
   font-size: 14px;
@@ -34,5 +36,4 @@ input {
   display: inline-block;
   padding: 15px 25px;
   margin-right: 10px;
-  border: 1px solid #ffffff;
-}
+  border: 1px solid @white; }
