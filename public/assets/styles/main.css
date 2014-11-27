@@ -3,6 +3,10 @@ body {
   padding: 20px;
   background-color: #2a3d40;
 }
+.wrapper {
+  width: 582px;
+  margin: 0 auto;
+}
 .messages {
   display: block;
   border: 1px solid #ffffff;
@@ -12,8 +16,10 @@ body {
   background-color: #ffffff;
 }
 h1 {
+  margin-bottom: 60px;
   font-size: 22px;
   text-transform: uppercase;
+  text-align: center;
   color: #c5dde0;
 }
 a {
@@ -28,7 +34,7 @@ a {
   color: #2a3d40;
 }
 input {
-  width: 350px;
+  width: 356px;
   font-size: 14px;
   line-height: 100%;
   display: inline-block;
